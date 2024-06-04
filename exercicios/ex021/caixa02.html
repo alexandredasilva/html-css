@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightslategray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3)
+        }
+
+        nav {
+            background-color: lightgray;
+            padding: 5px;
+            margin: 2px;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: lightslategray;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: white;
+        }
+
+        nav > a:active {
+            text-decoration: none;
+            color: lightslategray;
+        }
+
+        main {
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        #assuntos {
+            font-size: 0.9em;
+            padding: 10px;
+        }
+
+        #noticias-brasil {
+            background-color: lightgray;
+            padding: 5px;
+            margin: 5px;
+            font-size: 0.9em;
+        }
+
+        aside {
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Login</a>
+            <a href="#">Cadastre-se</a>
+            <a href="#">Sobre</a>
+            <a href="#">Meu perfil</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Esporte</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus blanditiis, in a cupiditate dignissimos repudiandae similique vero sed excepturi at libero dolore aut, delectus aperiam neque ab, voluptas quos veritatis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas magni nisi, totam, eaque nam quod voluptatibus placeat dolorem possimus reprehenderit dolor. Facere, asperiores. Odit dolorum cum quam ab deserunt fugiat?</p>
+                <h2>Política</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sed corrupti porro? Sunt aspernatur similique culpa amet sed sapiente, alias eius neque minima odio nobis quaerat aut dolorum esse reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laboriosam pariatur eaque fugit provident a asperiores magnam, doloremque obcaecati aut adipisci iure distinctio facere, inventore assumenda recusandae voluptatibus? Ipsam, doloremque?</p>
+                <h2>Tecnologia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et repudiandae maxime optio, ipsa, quibusdam provident, saepe dicta iste illo dolorum placeat quae? Placeat cumque quasi nobis facere repudiandae, id molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere dolorem quibusdam earum, suscipit dolore quidem velit, cupiditate, at est atque eius vero porro fuga debitis enim quasi perspiciatis. Culpa?</p>
+            </article>
+        </section>
+        <section id="noticias-brasil">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ut porro rem mollitia, repudiandae, quis, eaque incidunt neque quasi autem excepturi magnam. Fugit iure debitis labore numquam enim sunt earum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla quos id natus reprehenderit sit quidem exercitationem, dolor explicabo deserunt quaerat praesentium eveniet omnis veniam magni voluptatum distinctio, vero perspiciatis quo!</p>
+                <aside>Escrito por João Almeida</aside>
+            </article>
+        </section>
+    </main>
+    <footer>Desenvolvido por Alexandre Jesus</footer>
+</body>
+</html>
