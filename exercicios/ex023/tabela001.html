@@ -10,26 +10,17 @@
         }
 
         table {
+            height: 400px;
             width: 400px;
             border-collapse: collapse;
-            border: 2px solid red;
-        }
-
-        tr.linha1 {
-            background-color: darkgray;
+            border: 2px solid black;
         }
 
         td{
             border: 1px solid black;
             padding: 8px;
-        }
-
-        td.dado-positivo {
-            background-color: lightgreen;
-        }
-
-        td.dado-negativo {
-            background-color: lightcoral;
+            text-align: center; /* Alinhamento horizontal */
+            vertical-align: middle; /* Alinhamento vertical */
         }
     </style>
 </head>
@@ -45,7 +36,7 @@
     -->
 
     <table>
-        <tr class="linha1"> <!-- Primeira linha -->
+        <tr> <!-- Primeira linha -->
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
@@ -53,11 +44,11 @@
         <tr> <!-- Segunda linha -->
             <td>A2</td>
             <td>B2</td>
-            <td class="dado-negativo">C2</td>
+            <td>C2</td>
         </tr>
         <tr> <!-- Terceira linha -->
             <td>A3</td>
-            <td class="dado-positivo">B3</td>
+            <td>B3</td>
             <td>C3</td>
         </tr>
     </table>
