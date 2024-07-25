@@ -1,0 +1,19 @@
+
+                                   Notas
+    Área       Disciplinas     Nota 1  Nota 2       Média
+                
+               Matemática        0        0           0 
+
+               Física            0        0           0
+    Exatas
+	       Química               0        0           0
+
+	       Biologia              0        0           0
+
+    Média de exatas                                   0
+       
+               História          0        0           0
+     Humanas
+               Geografia         0        0           0
+
+     Média de Humanas                                 0
